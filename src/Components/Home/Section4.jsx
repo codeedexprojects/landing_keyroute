@@ -54,38 +54,60 @@ export default function KeyRoutePage() {
       </div>
       
       {/* Follow us section */}
-      <div 
-        className="text-center"
-        data-aos="fade-up"
-        data-aos-delay="400"
-      >
-        <h2 className="text-3xl md:text-4xl font-light text-gray-500 mb-6 uppercase tracking-wide">
-          Follow us
-        </h2>
-        
-        <div 
-          className="flex justify-center space-x-8"
-        >
-          <a 
-            href="#" 
-            className="text-gray-400 hover:text-gray-700 transition-colors"
-          >
-            <Instagram size={40} />
-          </a>
-          <a 
-            href="#" 
-            className="text-gray-400 hover:text-gray-700 transition-colors"
-          >
-            <Facebook size={40} />
-          </a>
-          <a 
-            href="#" 
-            className="text-gray-400 hover:text-gray-700 transition-colors"
-          >
-            <FaWhatsapp size={40} />
-          </a>
-        </div>
-      </div>
+     <div 
+  className="text-center"
+  data-aos="fade-up"
+  data-aos-delay="400"
+>
+  <h2 className="text-3xl md:text-4xl font-light text-gray-500 mb-6 uppercase tracking-wide">
+    Follow us
+  </h2>
+
+  <div className="flex justify-center space-x-8">
+    <a 
+      href="#" 
+      className="text-gray-400 hover:text-gray-700 transition-colors"
+    >
+      <Instagram size={40} />
+    </a>
+    <a 
+      href="#" 
+      className="text-gray-400 hover:text-gray-700 transition-colors"
+    >
+      <Facebook size={40} />
+    </a>
+    <a 
+      href="#" 
+      className="text-gray-400 hover:text-gray-700 transition-colors"
+    >
+      <FaWhatsapp size={40} />
+    </a>
+  </div>
+</div>
+
+{/* ✅ Added new section */}
+<div 
+  className="text-center mt-16"
+ 
+>
+ 
+
+  <div className="flex justify-center space-x-10 text-sm md:text-base text-gray-400">
+    <a 
+      href="#" 
+      className="hover:text-gray-700 transition-colors underline"
+    >
+      Terms & Conditions
+    </a>
+    <a 
+      href="#" 
+      className="hover:text-gray-700 transition-colors underline"
+    >
+      Refund Policy
+    </a>
+  </div>
+</div>
+
     </div>
   );
 }
