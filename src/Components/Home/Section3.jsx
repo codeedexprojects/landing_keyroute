@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import phone_mockup from '../../assets/phone_mockup.png';
-import phone_mockup2 from '../../assets/mockup.png';
+import phone_mockup2 from '../../assets/phone_mockup2.png';
 
 
 export default function KeyRouteAboutSection() {
