@@ -10,7 +10,7 @@ function Home() {
     <div>
         <Header></Header>
         <div className='mt-20'><KeyrouteHeroSection></KeyrouteHeroSection></div>
-        {/* <div><KeyRouteApp></KeyRouteApp></div> */}
+        <div><KeyRouteApp></KeyRouteApp></div>
         <div><KeyRouteAboutSection></KeyRouteAboutSection></div>
         <div><Section4></Section4></div>
     </div>

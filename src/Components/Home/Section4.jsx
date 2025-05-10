@@ -16,7 +16,7 @@ export default function KeyRoutePage() {
   }, []);
 
   return (
-    <div className="py-16 px-6 md:px-12 lg:px-24">
+    <div className="py-16 px-6 md:px-12 lg:px-24 -mt-16 md:-mt-20">
       {/* What we do section */}
       <h1 
         className="text-5xl md:text-6xl font-bold text-red-600 mb-10"
@@ -65,26 +65,22 @@ export default function KeyRoutePage() {
         
         <div 
           className="flex justify-center space-x-8"
-         
         >
           <a 
             href="#" 
             className="text-gray-400 hover:text-gray-700 transition-colors"
-           
           >
             <Instagram size={40} />
           </a>
           <a 
             href="#" 
             className="text-gray-400 hover:text-gray-700 transition-colors"
-          
           >
             <Facebook size={40} />
           </a>
           <a 
             href="#" 
             className="text-gray-400 hover:text-gray-700 transition-colors"
-           
           >
             <FaWhatsapp size={40} />
           </a>
